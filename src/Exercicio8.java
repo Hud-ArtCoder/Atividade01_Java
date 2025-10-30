@@ -12,6 +12,13 @@ public class Exercicio8 {
 
         if (idade <= 12) {
             System.out.println("Criança");
-        }else{
+        } else if(idade >= 12 && idade <= 18) {
+            System.out.println("Adolescente");
+        } else if(idade >= 18 && idade <= 60) {
+            System.out.println("Adulto");
+        } else if( idade <= 60) {
+            System.out.println("Idoso");
+        }
+        sc.close();
     }
 }
